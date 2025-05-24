@@ -1,0 +1,51 @@
+/* universal selector */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Selector */
+body
+{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/*class Selectors */
+.card
+{
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+#profileCard
+{
+    border: 2px solid #745faf;
+}
+
+/* class Selector */
+.profile-pic
+{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.name
+{
+    color: #333;
+}
+
+.bio
+{
+    font-size: 14px;
+    color: #666;
+}
